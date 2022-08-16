@@ -1,0 +1,25 @@
+.container {
+    background-color: rgb(225, 222, 222);
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(78, 76, 76);
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    gap: 20px;
+    margin-bottom: 15px;
+    color: rgb(61, 60, 60);
+    width: 90%;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 20px;
+}
+.poster {
+    box-shadow: 3px 3px 3px black;
+    width: 200px;
+}
+.desContainer {
+    display: flex;
+    flex-direction: column;
+}
+.title {
+    color: black;
+}
