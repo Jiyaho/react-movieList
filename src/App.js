@@ -7,13 +7,13 @@ function App() {
   return (
     <Router>
       <Switch>
-        <Route path={process.env.PUBLIC_URL + "/movie/:id"}>
+        <Route path="/movie/:id">
           <Detail />
         </Route>
-        <Route path={process.env.PUBLIC_URL + "/"}>
+        <Route path="/">
           <Home />
         </Route>
-        <Route path={process.env.PUBLIC_URL + "/like"}>
+        <Route path="/like">
           <Like />
         </Route>
       </Switch>
